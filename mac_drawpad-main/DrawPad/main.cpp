@@ -1,6 +1,6 @@
 #include "DrawPad.hpp"
 #include <math.h>
-
+// 追加　15行目 10 -> 15
 void DrawMain()
 {
     Clear(kColorBlack);
@@ -12,7 +12,7 @@ void DrawMain()
         FillCircle(i*100-200, -190, 30, kColorBlue, M_PI/6+i*M_PI/2, -M_PI/6+i*M_PI/2);
     }
 
-    for (int x = -100; x <= 100; x+=10) {
+    for (int x = -100; x <= 100; x+=15) {
         DrawCircle(x, 0, 150, kColorBlue);
     }
 
