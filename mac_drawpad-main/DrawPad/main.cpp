@@ -12,7 +12,7 @@ void DrawMain()
         FillCircle(i*100-200, -190, 30, kColorBlue, M_PI/6+i*M_PI/2, -M_PI/6+i*M_PI/2);
     }
     
-    for (int x = -100; x <= 100; x+=10) {
+    for (int x = -100; x <= 100; x+=15) {
         DrawCircle(x, 0, 150, kColorBlue);
     }
     
@@ -34,11 +34,10 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
-<<<<<<< HEAD
     DrawCircle(x, 0, 150, kColorBlue);
-=======
-    DrawCircle(x, 0, 150, kColorRed);
->>>>>>> 35a6dcba93ccb73e5243aec5651fbed662c76383
+    
 
 }
 
+
+// 変更15行目 10 -> 15
